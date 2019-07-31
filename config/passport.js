@@ -1,7 +1,4 @@
 const LocalStrategy = require('passport-local').Strategy
-/*const User = require('../app/models/admin')
-const mongo = require('mongodb').MongoClient;
-const configDB = process.env.MONGO;*/
 const mysql = require('mysql')
 var sql = mysql.createConnection({
     host: process.env.SQLHOST,
