@@ -1,0 +1,52 @@
+<html lang="en-gb">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" >
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> <!-- load jQuery -->
+        <script src="js/menu.js"></script>
+        <title><%=title%></title>
+    </head>
+    <body>
+        <!-- Start Top Menu -->
+        <div class="hidden" id="invisMenu"></div>
+        <div class="menuBar">
+            <div class="lefty" id="menu-title">
+                <a href="/"><img class="main-banner-image" src="/images/ryzone-clear.png"></a>
+            </div>
+            <div class="righty" >
+                    <a href="#" class="topMenuButton" id="mainMenuBtn">Menu</a>
+            </div>
+        </div>
+        <div id="overlay">
+            <div class="sideMenu hidden">
+                <div class="sidebtn righty">
+                    <a href="/downloads" class="menuLink">Downloads</a>
+                </div><br>
+                <div class="sidebtn righty" >
+                    <a href="/services" class="menuLink">Services</a>
+                </div><br>
+                <div class="sidebtn righty">
+                    <a href="/contact" class="menuLink">Contact</a>
+                </div>
+            </div>
+        </div>
+        <!-- End Top Menu -->
+        <div class="lb short" id="firstBlock">
+            <div class="contBlock contactBackdrop bar-tile">
+            <h1>Downloads</h1>
+            <div>Not all of the software we make is proprietary. Our engineers are encouraged to take their own scripts and projects and flesh them out into fully functional applications. Our philosophy is if you like what you're doing, and love what you're building, you'll create good work. </div>
+        </div></div>
+        <div class="lb">
+            <div class="contBlock contactBackdrop">
+                <div><div class="lefty servBlock" id="pentest"><h2 style="margin:0px;">Surgeon</h2><img src="/images/surgeon-screenshot.png" class="block-image-large"></div><div class="righty servBlock"><span class="package">Surgeon is a part of our Social Engineering arsenal. This Python application is a swiss army knife of binary modification and backdooring! It allows you to:<ul> <li>Read the headers and metadata of a binary file</li><li>Identify file the sections and flags</li><li>Modify sections' flags to any arbitrary value-- allowing you to control what is and isn't executable</li><li>Identify code caves automatically, controlling:<ul><li>The length of the code cave</li><li>The byte(s) to be looking for</li><li>The program sections to search through</li></ul></li><li>Identify ALL code caves, allowing you to chain them together!</li><li>Add your own code to a program without adding a new section or increasing the file length--making it easier to evade defenses!</li> </ul></span><br><span>You can read more about it <a href="https://hackernoon.com/pwning-binaries-with-surgeon-a-primer-for-offensive-security-professionals-e33765ab2444">here on HackerNoon</a>, or download it directly <a href="https://github.com/OmegaPointZero/Surgeon">from github.</a></span></div></div><hr>
+            </div>
+
+        <div class="db" id="footer">
+            <div class="footer-div" id="footer-1"><a class="footer-link" href="/services/web">Website Services</a><ul><li><a class="footer-link" href="/services/web#SPA">Single Page Applications</a></li><li><a class="footer-link" href="/services/web#BWP">Basic Web Presence</a></li><li><a class="footer-link" href="/services/web#Dynamic">Dynamic Website</li><li><a class="footer-link" href="/services/web#FSA">Full-Stack Applications and APIs</a></li><li><a class="footer-link" href="/services/web#SEO">Search Engine Optimization (SEO)</a></li></ul></div>
+            <div class="footer-div" id="footer-2"><a class="footer-link" href="/services/security">Security Services</a><ul><li><a class="footer-link" href="/services/security#pentest">Penetration Testing</a></li><li><a class="footer-link" href="/services/security#malwrm">Malware/Spyware/Virus Removal</a></li><li><a class="footer-link" href="/services/security#SLD">Secure LockDown</a></li></ul></div>
+            <div class="footer-div" id="footer-3">More Information<ul><li><a href="/about" class="footer-link">About Us</a></li><li><a href="/contact" class="footer-link">Contact</a></li></ul></div>
+            <div id="footer-4">© 2018 - Present Ryzone Enterprises, All Rights Reserved.</div>
+        </div>
+    </body>
+</html>

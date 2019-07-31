@@ -1,0 +1,283 @@
+@import url('http://fonts.googleapis.com/css?family=Palanquin');
+
+div {
+    overflow: hidden;
+}
+
+body{
+    background-image: url("/images/1460325184297.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    margin: 0px;
+    font-family: Palanquin;
+}
+
+.menuBar {
+    overflow: hidden;
+    background-color: #d3a200;
+    width: 100%;
+    position: fixed;
+    color: black;
+    height: 29px;
+}
+
+.sideMenu {
+    width: 95px;
+    float: right;
+}
+
+.hidden {
+    display: none;
+}
+
+#overlay{
+    padding-top: 29px;
+}
+
+.sidebtn{
+    width: 95px !important;
+    padding: 5px;
+    background-color: #d3a200;
+    color: black;
+    display: block;
+    text-align: center;
+    position: fixed;
+}
+
+.blockAdjust{
+    margin-top: -58px;
+}
+
+.menuLink {
+    margin: 5px;
+    color: black;
+}
+
+#invisMenu{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top: 0;
+}
+.lefty {
+    order: 0;
+    float: left;
+}
+
+.righty {
+    order: 1;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.topMenuButton {
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 30px;
+    color: black !important;
+}
+
+a#mainMenuButton:hover{
+    color: #fec300;
+}
+
+.menuButton {
+    padding: 12px;
+}
+
+.menuButton:hover{
+    background-color: #444444;
+}
+
+#menu-title:hover {
+    background-color: #fec300;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.lb{
+    background-color: rgba(6,6,6,0.6);
+    align-items: center;
+    min-height: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.contactBackdrop {
+    background-color: rgba(8,8,8,.9);
+    align-items: center;
+    display: block;
+    margin: auto;
+    padding: 2% 5% 5% 5%;
+
+}
+
+.db{
+    background-color: rgba(6,6,6,0.9);
+    min-height: 30%;
+    display: block;
+    padding: 15px;
+}
+
+.displayBlock {
+    min-width: 30%;
+    height: 365px;
+    flex: 2 2 0;
+    margin: 5px;
+    padding: 5px;
+}
+
+.contBlock {
+    min-width: 30%;
+    height: auto;
+    flex: 2 2 0;
+    margin: 5px;
+    padding: 15px;
+}
+
+.serviceBlock {
+    min-width: 35%;
+    height: 465px;
+    flex: 2 2 0;
+    margin: 5px;
+    padding: 5px;
+}
+
+.main-banner-image{
+    max-height: 30px;
+}
+.inputHolder {
+    float: left;
+    width: 47%;
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    height: 35px !important; 
+    background-color: black;
+    border-color: black;
+    color: white;
+    margin: auto;
+}
+
+input {
+    background-color: rgba(5,5,5,.5);
+    border-color: rgba(5,5,5,.9);
+    color: white;
+}
+
+#submitQ {
+    margin-top: 15px;
+}
+
+.tile-link {
+    color: #FEC300
+}
+
+.block-image {
+    max-width: 85%;
+    max-height: 70%;
+}
+
+.block-image-med {
+    max-width: 85%;
+    max-height: 120px;
+}
+
+.block-image-large {
+    max-width: 95%;
+    max-height: 100%;
+}
+
+.bar-tile {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.short {
+    padding-top: 2%;
+    min-height: 20% !important;
+}
+
+#service-0 {
+    text-align: center;
+    order: 0;
+}
+
+#service-1 {
+    text-align: center;
+    order: 1;
+}
+
+#service-2 {
+    text-align: center;
+    order: 2;
+}
+
+#service-3 {
+    text-align: center;
+    order: 3;
+}
+
+#service-4 {
+    text-align: center;
+    order: 4;
+}
+
+.footer-div {
+    width: 33%;
+    float: left;
+}
+
+#footer-4{
+    width: 100%;
+    text-align: center;
+}
+
+.package {
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.no-marg {
+    margin-bottom: 0px;
+}
+
+.servBlock {
+    width: 50%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contactWindow {
+    min-width: 275px;
+    min-height: 365px;
+    max-height: 70%;
+    flex: 2 2 0;
+    margin: 5px;
+    padding: 5px;
+}
+
+.inputText {
+    width:85%;
+}

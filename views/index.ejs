@@ -1,0 +1,102 @@
+<html lang="en-gb">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" >
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> <!-- load jQuery -->
+        <script src="js/menu.js"></script>
+        <title><%=title%></title>
+    </head>
+    <body>
+
+    <!-- Start Top Menu -->
+    <div class="hidden" id="invisMenu"></div>
+    <div class="menuBar">
+        <div class="lefty" id="menu-title">
+            <a href="/"><img class="main-banner-image" src="/images/ryzone-clear.png"></a>
+        </div>
+        <div class="righty" >
+                <a href="#" class="topMenuButton" id="mainMenuBtn">Menu</a>
+        </div>
+    </div>
+    <div id="overlay">
+        <div class="sideMenu hidden">
+            <div class="sidebtn righty">
+                <a href="/downloads" class="menuLink">Downloads</a>
+            </div><br>
+            <div class="sidebtn righty" >
+                <a href="/services" class="menuLink">Services</a>
+            </div><br>
+            <div class="sidebtn righty">
+                <a href="/contact" class="menuLink">Contact</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Menu -->
+
+    <div class="lb" id="firstBlock">
+        <div class="displayBlock lefty">
+            <span class="greetingTitle"><h1>Engineered, just for you.</h1></span>
+            <span class="introduction">Ryzone's talented development team can make anything you can dream of. Whether you're looking for a simple webpage, or a partner to handle the digital side of engineering your dream, Ryzone is here to bring your ideas to life. </span><br /><br />
+            <span>We also employ specialists in information security, utilizing a blend of Offensive Security techniques and expert analysis to harden your business' defenses against a multi-billion dollar threat.</span>
+        </div>
+        <div class="contactBackdrop contactWindow righty">
+            <h3>Questions? Drop us a line.</h3>
+            <span>Just fill out this form below, and we'll get back to you within the day.</span><br>
+            <form action="/contact" method="post">
+                <div>
+                    <div class="inputHolder"><span>First Name</span><br>
+                        <input class="inputForm inputText" type="text" name="first"></input> 
+                    </div>
+                    <div class="inputHolder"><span>Last Name</span><br>
+                        <input class="inputForm inputText" type="text" name="last"></input>
+                    </div>
+                    <div class="inputHolder"><span>Phone</span><br>
+                        <input class="inputForm inputText" type="text" name="phone"></input>
+                    </div>
+                    <div class="inputHolder"><span>Email</span><br>
+                        <input class="inputForm inputText" type="text" name="email"></input>
+                    </div><br />
+                    <div class="lefty" id="category"> I'm looking for more information about: <br />
+                    <input type="radio" name="option" value="Web">Website Development</input><br>
+                    <input type="radio" name="option" value="Security">Security Services</input><br>
+                    <input type="radio" name="option" value="Consultations">Consultations</input><br>
+                    <input type="radio" name="option" value="Other">Something Else</input></div>
+                    </div>
+                    <button id="submitQ">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="db" id="web-tile">
+        <h1>Let's take your business global.</h1>
+        <div>You can't have a business today without a website. Period. The world has grown too connected, and EVERY business is at everyone's fingertips at any given time. By not having a website you are only giving away YOUR business to your competitors, by not giving your potential customers the chance to learn about what you have to offer! That's why we offer a myriad of packages that can be tailored and negotiated to match every business's needs. <a class="tile-link" href="/services/web">Learn More.</a> </div>
+    </div>
+    <div class="lb" id="sec-tile">
+        <div class="displayBlock lefty">
+            <h1>Security is serious business.</h1>
+            <div>You see a camera to protect your assets in the event of the unthinkable. Hackers see an easy way to break into your business. A security camera only has to be online for <a href="https://techcrunch.com/2016/11/18/this-security-camera-was-infected-by-malware-in-98-seconds-after-it-was-plugged-in/" class="tile-link">98 seconds</a> before it's subject to malicious attacks from hackers. With monthly news stories about even the biggest, richest companies falling victim to malicious software, Ryzone is proud to employ security specialists who know how hackers think and what they look for. Our security services are designed to be proactive -- finding and closing security threats before the bad guys can. <a class="tile-link" href="/services/security">Learn More.</a></div>
+        </div>
+        <div class="displayBlock righty">
+            <img class="block-image" id="security-cam-image" src="/images/business-security-cameras.jpg">
+        </div>
+    </div>
+
+    <div class="db" id="cons-tile">
+        <h1>Sometimes you just need an expert.</h1>
+        <div>Ryzone's technology experts are available to you for consultations. If you're ready to take your business to the next step and really compete in today's global, digital marketplace, you will need someone working for you who understands the tech driving today's markets. Ryzone is proud to provide expertise and experience, to empower our clients guide themselves down the path to success.  <a class="tile-link" href="/contact">Schedule a free 30-minute consultation today.</a></div>
+    </div>
+
+    <div class="lb short" id="dl-tile">
+        <h1>Free Software</h1>
+        <div>Ryzone's exploit developers and security specialists have written a myriad of useful scripts for offensive security specialists. Ryzone is in the process of building up these tools into items fit for public release. <a class="tile-link" href="/downloads">Check out what we've got available.</a></div>
+    </div>
+
+        <div class="db" id="footer"> 
+            <div class="footer-div" id="footer-1"><a class="footer-link" href="/services/web">Website Services</a><ul><li><a class="footer-link" href="/services/web#SPA">Single Page Applications</a></li><li><a class="footer-link" href="/services/web#BWP">Basic Web Presence</a></li><li><a class="footer-link" href="/services/web#Dynamic">Dynamic Website</li><li><a class="footer-link" href="/services/web#FSA">Full-Stack Applications and APIs</a></li><li><a class="footer-link" href="/services/web#SEO">Search Engine Optimization (SEO)</a></li></ul></div>
+            <div class="footer-div" id="footer-2"><a class="footer-link" href="/services/security">Security Services</a><ul><li><a class="footer-link" href="/services/security#pentest">Penetration Testing</a></li><li><a class="footer-link" href="/services/security#malwrm">Malware/Spyware/Virus Removal</a></li><li><a class="footer-link" href="/services/security#SLD">Secure LockDown</a></li></ul></div>
+            <div class="footer-div" id="footer-3">More Information<ul><li><a href="/about" class="footer-link">About Us</a></li><li><a href="/contact" class="footer-link">Contact</a></li></ul></div>
+            <div id="footer-4">© 2018 - Present Ryzone Enterprises, All Rights Reserved.</div>
+        </div>
+    </body>
+</html>

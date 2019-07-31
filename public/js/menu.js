@@ -1,0 +1,13 @@
+$(document).ready(function(){
+    $('#mainMenuBtn').click(function(e){
+        e.preventDefault();
+        $('.sideMenu').toggleClass('hidden');
+        $('#invisMenu').toggleClass('hidden');
+        $('#firstBlock').toggleClass('blockAdjust');
+    });
+    $('#invisMenu').click(function(e){
+        e.preventDefault();
+        $('.sideMenu').toggleClass('hidden');
+        $('#firstBlock').toggleClass('blockAdjust');
+    });
+});

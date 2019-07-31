@@ -1,0 +1,58 @@
+<html lang="en-gb">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" >
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> <!-- load jQuery -->
+        <script src="js/menu.js"></script>
+        <title><%=title%></title>
+    </head>
+    <body>
+        <!-- Start Top Menu -->
+        <div class="hidden" id="invisMenu"></div>
+        <div class="menuBar">
+            <div class="lefty" id="menu-title">
+                <a href="/"><img class="main-banner-image" src="/images/ryzone-clear.png"></a>
+            </div>
+            <div class="righty" >
+                    <a href="#" class="topMenuButton" id="mainMenuBtn">Menu</a>
+            </div>
+        </div>
+        <div id="overlay">
+            <div class="sideMenu hidden">
+                <div class="sidebtn righty">
+                    <a href="/downloads" class="menuLink">Downloads</a>
+                </div><br>
+                <div class="sidebtn righty" >
+                    <a href="/services" class="menuLink">Services</a>
+                </div><br>
+                <div class="sidebtn righty">
+                    <a href="/contact" class="menuLink">Contact</a>
+                </div>
+            </div>
+        </div>
+        <!-- End Top Menu -->
+
+        <div class="lb short" id="firstBlock">
+            <div class="contBlock contactBackdrop bar-tile">
+                <h1>About Us</h1>
+            </div>
+        </div>
+        <div class="lb">
+            <div class="displayBlock" style="height:auto !important;"> 
+                <h2>How We Started</h2>
+                <div>Ryzone began as a place for Security Specialists to build their skills, put their skills to use and provide security services to local businesses. We noticed that most small business owners had no idea that some of their convenient practices were actually leaving them open to recurrent attacks! We worked with clients to educate them on what the issues were, and worked to bridge the gap between the ultra-secure and ultra-convenient. We crafted solutions to leave our clients operating smoothly, without the need to complicate or change any of their existing protocols. We take pride in making your business secure and hardening your defenses! </div>
+                <div>In 2017 Ryzone began branching out to add web development services. Our experience with a wide array of different technologies and security threats gives us an edge when designing websites and web applications. Our philosophy is that it makes more sense to be proactive and build applications with security in mind, than to address an issue after an incident. After all, you don't wait until you're in a collision to put on your seatbelt! </div>
+                <h2>What We Do</h2>
+                <div>Ryzone offers development services for any internet based project. For building servers and applications, we use the following technologies:<ul><li>Python</li><li>JavaScript (Node.js)</li><li>MongoDB</li></ul> With these, we design and build with security in mind. Ryzone provides everything from simple websites to full applications.</div><div>Ryzone also builds API's for servers, allowing for several advantages: <ul><li>Front-End Website can be heavily modified and edited without needing to modify the custom server</li><li>APIs allow ease of access to application for developers, encouraging programmers to interact with your product!</li><li>Adding a Mobile Application for Android/iPhone is far easier with an API and doesn't require sweeping changes to your server!</li></ul></div>
+                <div>In addition to development services, we also still offer our original security services. For a general list of what security services we offer, you can <a href="/services/security" class="tile-link">check out our security service packages</a> or <a href="/contact" class="tile-link">contact us for a consultation.</a></div>
+            </div>
+            </div>
+        <div class="db" id="footer">
+            <div class="footer-div" id="footer-1"><a class="footer-link" href="/services/web">Website Services</a><ul><li><a class="footer-link" href="/services/web#SPA">Single Page Applications</a></li><li><a class="footer-link" href="/services/web#BWP">Basic Web Presence</a></li><li><a class="footer-link" href="/services/web#Dynamic">Dynamic Website</li><li><a class="footer-link" href="/services/web#FSA">Full-Stack Applications and APIs</a></li><li><a class="footer-link" href="/services/web#SEO">Search Engine Optimization (SEO)</a></li></ul></div>
+            <div class="footer-div" id="footer-2"><a class="footer-link" href="/services/security">Security Services</a><ul><li><a class="footer-link" href="/services/security#pentest">Penetration Testing</a></li><li><a class="footer-link" href="/services/security#malwrm">Malware/Spyware/Virus Removal</a></li><li><a class="footer-link" href="/services/security#SLD">Secure LockDown</a></li></ul></div>
+            <div class="footer-div" id="footer-3">More Information<ul><li><a href="/about" class="footer-link">About Us</a></li><li><a href="/contact" class="footer-link">Contact</a></li></ul></div>
+            <div id="footer-4">© 2018 - Present Ryzone Enterprises, All Rights Reserved.</div>
+        </div>
+    </body>
+</html>
