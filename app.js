@@ -3,6 +3,7 @@ const morgan = require('morgan'); //log reqs
 const passport = require('passport');
 const app = express();
 const promise = require('rsvp').Promise;
+const bodyParser = require('body-parser');
 require('dotenv').config();
 const session = require('express-session');
 const flash = require('connect-flash');
